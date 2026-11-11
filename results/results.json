@@ -1,0 +1,404 @@
+{
+ "open_loop_final_x": 1.0,
+ "metrics_example_P100": {
+  "rise": 0.142,
+  "overshoot": 20.1684,
+  "settle": 0.7605,
+  "sse": 0.1667,
+  "y_final": 0.8333
+ },
+ "p_only": [
+  {
+   "kp": 10,
+   "final_sim": 0.3333,
+   "final_theory": 0.3333,
+   "sse_theory": 0.6667,
+   "zeta": 0.913,
+   "os_theory": 0.09,
+   "rise": 0.5365,
+   "overshoot": 0.0903,
+   "settle": 0.883
+  },
+  {
+   "kp": 50,
+   "final_sim": 0.7143,
+   "final_theory": 0.7143,
+   "sse_theory": 0.2857,
+   "zeta": 0.598,
+   "os_theory": 9.62,
+   "rise": 0.2205,
+   "overshoot": 9.7045,
+   "settle": 0.7095
+  },
+  {
+   "kp": 100,
+   "final_sim": 0.8333,
+   "final_theory": 0.8333,
+   "sse_theory": 0.1667,
+   "zeta": 0.456,
+   "os_theory": 19.96,
+   "rise": 0.142,
+   "overshoot": 20.1606,
+   "settle": 0.761
+  },
+  {
+   "kp": 300,
+   "final_sim": 0.9375,
+   "final_theory": 0.9375,
+   "sse_theory": 0.0625,
+   "zeta": 0.28,
+   "os_theory": 40.07,
+   "rise": 0.072,
+   "overshoot": 40.6693,
+   "settle": 0.776
+  }
+ ],
+ "pi": [
+  {
+   "ki": 0,
+   "rise": 0.072,
+   "overshoot": 40.6699,
+   "settle": 0.776,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  },
+  {
+   "ki": 100,
+   "rise": 0.0755,
+   "overshoot": 34.6048,
+   "settle": 2.943,
+   "sse": 0.0013,
+   "y_final": 0.9987
+  },
+  {
+   "ki": 200,
+   "rise": 0.0745,
+   "overshoot": 36.9379,
+   "settle": 1.223,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "ki": 1000,
+   "rise": 0.0685,
+   "overshoot": 55.6523,
+   "settle": 1.1565,
+   "sse": 0.0,
+   "y_final": 1.0
+  }
+ ],
+ "pd": [
+  {
+   "kd": 0,
+   "zeta": 0.28,
+   "os_theory": 40.07,
+   "rise": 0.072,
+   "overshoot": 40.7676,
+   "settle": 0.774,
+   "sse": 0.0632,
+   "y_final": 0.9368
+  },
+  {
+   "kd": 10,
+   "zeta": 0.559,
+   "os_theory": 12.03,
+   "rise": 0.098,
+   "overshoot": 12.1215,
+   "settle": 0.3255,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  },
+  {
+   "kd": 20,
+   "zeta": 0.839,
+   "os_theory": 0.79,
+   "rise": 0.146,
+   "overshoot": 0.73,
+   "settle": 0.2285,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  },
+  {
+   "kd": 40,
+   "zeta": 1.398,
+   "os_theory": 0.0,
+   "rise": 0.3,
+   "overshoot": 0.0005,
+   "settle": 0.546,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  }
+ ],
+ "compare": [
+  {
+   "name": "P",
+   "kp": 300.0,
+   "ki": 0,
+   "kd": 0,
+   "rise": 0.072,
+   "overshoot": 40.6699,
+   "settle": 0.776,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  },
+  {
+   "name": "PI",
+   "kp": 300.0,
+   "ki": 200.0,
+   "kd": 0,
+   "rise": 0.0745,
+   "overshoot": 36.9379,
+   "settle": 1.223,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "name": "PD",
+   "kp": 300.0,
+   "ki": 0,
+   "kd": 20.0,
+   "rise": 0.146,
+   "overshoot": 0.73,
+   "settle": 0.2285,
+   "sse": 0.0625,
+   "y_final": 0.9375
+  },
+  {
+   "name": "PID",
+   "kp": 300.0,
+   "ki": 200.0,
+   "kd": 20.0,
+   "rise": 0.153,
+   "overshoot": 0.4856,
+   "settle": 0.2415,
+   "sse": 0.0,
+   "y_final": 1.0
+  }
+ ],
+ "gain_grid_top": [
+  {
+   "kp": 400,
+   "ki": 100,
+   "kd": 20,
+   "rise": 0.113,
+   "overshoot": 1.479,
+   "settle": 0.171,
+   "sse": 0.0123,
+   "y_final": 0.9877,
+   "peak_force": 400.1
+  },
+  {
+   "kp": 300,
+   "ki": 200,
+   "kd": 20,
+   "rise": 0.153,
+   "overshoot": 0.4981,
+   "settle": 0.2415,
+   "sse": 0.0001,
+   "y_final": 0.9999,
+   "peak_force": 300.2
+  },
+  {
+   "kp": 400,
+   "ki": 200,
+   "kd": 20,
+   "rise": 0.1125,
+   "overshoot": 2.2295,
+   "settle": 0.249,
+   "sse": 0.002,
+   "y_final": 0.998,
+   "peak_force": 400.2
+  },
+  {
+   "kp": 300,
+   "ki": 100,
+   "kd": 20,
+   "rise": 0.1585,
+   "overshoot": 0.0317,
+   "settle": 0.2805,
+   "sse": 0.0099,
+   "y_final": 0.9901,
+   "peak_force": 300.1
+  },
+  {
+   "kp": 400,
+   "ki": 200,
+   "kd": 30,
+   "rise": 0.165,
+   "overshoot": 0.0005,
+   "settle": 0.2875,
+   "sse": 0.0001,
+   "y_final": 0.9999,
+   "peak_force": 400.2
+  },
+  {
+   "kp": 400,
+   "ki": 100,
+   "kd": 30,
+   "rise": 0.1695,
+   "overshoot": 0.0242,
+   "settle": 0.342,
+   "sse": 0.0099,
+   "y_final": 0.9901,
+   "peak_force": 400.1
+  }
+ ],
+ "windup": [
+  {
+   "case": "no force limit",
+   "rise": 0.153,
+   "overshoot": 0.4856,
+   "settle": 0.2415,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "case": "30 N limit, no fix",
+   "rise": 0.3945,
+   "overshoot": 11.1826,
+   "settle": 3.3565,
+   "sse": -0.0001,
+   "y_final": 1.0001
+  },
+  {
+   "case": "30 N limit + anti-windup",
+   "rise": 0.41,
+   "overshoot": 0.0006,
+   "settle": 2.0695,
+   "sse": 0.0,
+   "y_final": 1.0
+  }
+ ],
+ "noise": [
+  {
+   "case": "D on raw noisy signal",
+   "force_std_N": 17.35,
+   "pos_std_mm": 0.1525
+  },
+  {
+   "case": "D low-pass filtered (tau = 10 ms)",
+   "force_std_N": 1.28,
+   "pos_std_mm": 0.1355
+  }
+ ],
+ "noise_raw_d_peak_estimate_N": 40.0,
+ "kick": [
+  {
+   "case": "D on error",
+   "peak_force": 20300.2
+  },
+  {
+   "case": "D on measurement",
+   "peak_force": 300.2
+  }
+ ],
+ "sample_time_limit_ms": 73.2,
+ "sample_time": [
+  {
+   "dt_ms": 1.0,
+   "unstable": false,
+   "rise": 0.153,
+   "overshoot": 0.4858,
+   "settle": 0.2415,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "dt_ms": 20.0,
+   "unstable": false,
+   "rise": 0.138,
+   "overshoot": 0.0,
+   "settle": 0.2615,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "dt_ms": 50.0,
+   "unstable": false,
+   "rise": 0.0745,
+   "overshoot": 9.0153,
+   "settle": 0.7225,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "dt_ms": 80.0,
+   "unstable": true
+  },
+  {
+   "dt_ms": 100.0,
+   "unstable": true
+  }
+ ],
+ "zn": {
+  "Ku": 7.882,
+  "Pu": 3.652,
+  "Ku_theory": 8.0,
+  "Pu_theory": 3.628,
+  "rows": [
+   {
+    "case": "Ziegler-Nichols PID",
+    "kp": 4.729,
+    "ki": 2.59,
+    "kd": 2.159,
+    "rise": 0.9545,
+    "overshoot": 52.1961,
+    "settle": 9.907,
+    "sse": -0.0,
+    "y_final": 1.0
+   },
+   {
+    "case": "Improved by hand",
+    "kp": 2.838,
+    "ki": 0.777,
+    "kd": 1.727,
+    "rise": 1.56,
+    "overshoot": 10.0612,
+    "settle": 4.9125,
+    "sse": -0.0001,
+    "y_final": 1.0001
+   }
+  ]
+ },
+ "final_step": {
+  "rise": 0.4135,
+  "overshoot": 0.0093,
+  "settle": 2.0105,
+  "sse": 0.0005,
+  "y_final": 0.9995
+ },
+ "mass_whatif": [
+  {
+   "mass": 0.5,
+   "rise": 0.4255,
+   "overshoot": 0.0159,
+   "settle": 1.9665,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "mass": 1,
+   "rise": 0.4135,
+   "overshoot": 0.0112,
+   "settle": 2.0225,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "mass": 2,
+   "rise": 0.437,
+   "overshoot": 0.0083,
+   "settle": 2.222,
+   "sse": 0.0,
+   "y_final": 1.0
+  },
+  {
+   "mass": 4,
+   "rise": 0.512,
+   "overshoot": 1.6189,
+   "settle": 2.5315,
+   "sse": 0.0001,
+   "y_final": 0.9999
+  }
+ ]
+}
